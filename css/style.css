@@ -18,3 +18,45 @@ body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
 }
+header {
+    background-color: var(--cor-branco);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    height: 70px;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--cor-principal);
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: var(--cor-principal);
+}
+
+nav ul li a.active {
+    color: var(--cor-principal);
+    border-bottom: 3px solid var(--cor-principal);
+    padding-bottom: 4px;
+}
