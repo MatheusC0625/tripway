@@ -148,3 +148,28 @@ footer {
     color: white;
     margin-top: 60px;
 }
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 16px 0;
+        gap: 12px;
+    }
+
+    nav ul {
+        gap: 1rem;
+    }
+
+    .caixa-principal {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .caixa-texto h1 {
+        font-size: 1.8rem;
+    }
+
+    .caixa-imagem img {
+        width: 100%;
+    }
+}
