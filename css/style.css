@@ -103,3 +103,28 @@ nav ul li a.active {
 .botao:hover {
     background-color: var(--cor-escura);
 }
+.sobre {
+    background-color: var(--cor-branco);
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.sobre h2 {
+    font-size: 2rem;
+    color: #2d3436;
+    margin-bottom: 16px;
+}
+
+.sobre p {
+    color: var(--cor-cinza);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding: 24px;
+    background-color: #2d3436;
+    color: white;
+    margin-top: 60px;
+}
