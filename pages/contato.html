@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato e Reserva | TripWay</title>
+</head>
+<body>
+
+    <header>
+        <h1>TripWay</h1>
+        <p>Seu guia completo de viagens</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="destinos.html">Destinos</a></li>
+            <li><a href="pacotes.html">Pacotes</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Entre em Contato ou Faça sua Reserva</h2>
+            <img src="https://media.istockphoto.com/id/1340452442/pt/vetorial/customer-support-department-staff-helping-a-client-via-hotline-call-to-solve-a-problem.jpg?s=612x612&w=0&k=20&c=usuf-QHmLSWA6XsRS7xhDjdJROSCmBEnW0SM8XurMA8=" alt="Atendimento ao cliente TripWay">
+            <p>Preencha o formulário abaixo e nossa equipe entrará em contato com você em até 24 horas.</p>
+        </section>
+
+        <section>
+            <h3>Formulário de Reserva</h3>
+            <form action="#" method="post">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+                <br><br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone">
+                <br><br>
+
+                <label for="destino">Destino de Interesse:</label>
+                <select id="destino" name="destino" required>
+                    <option value="">Selecione um destino</option>
+                    <option value="praia">Praia do Rosa - SC</option>
+                    <option value="montanha">Serra da Mantiqueira - MG</option>
+                    <option value="cidade">São Paulo - SP</option>
+                    <option value="outros">Outros destinos</option>
+                </select>
+                <br><br>
+
+                <label for="data">Data da Viagem:</label>
+                <input type="date" id="data" name="data" required>
+                <br><br>
+
+                <label for="pessoas">Quantidade de Pessoas:</label>
+                <input type="number" id="pessoas" name="pessoas" min="1" max="50" required>
+                <br><br>
+
+                <label for="mensagem">Mensagem / Observações:</label>
+                <br>
+                <textarea id="mensagem" name="mensagem" rows="5" cols="50" placeholder="Conte-nos mais sobre sua viagem dos sonhos..."></textarea>
+                <br><br>
+
+                <button type="submit">Enviar Solicitação</button>
+                <button type="reset">Limpar Formulário</button>
+            </form>
+        </section>
+
+        <section>
+            <h3>Outras Formas de Contato</h3>
+            <p><strong>Telefone:</strong> (11) 1234-5678</p>
+            <p><strong>WhatsApp:</strong> (11) 98765-4321</p>
+            <p><strong>E-mail:</strong> contato@tripway.com</p>
+            <p><strong>Endereço:</strong> Av. Paulista, 1000 - São Paulo, SP</p>
+            <p><strong>Horário de Atendimento:</strong> Segunda a Sexta, 9h às 18h</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TripWay</p>
+        <p>Contato: contato@tripway.com | Tel: (11) 1234-5678</p>
+    </footer>
+
+</body>
+</html>
