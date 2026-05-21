@@ -1,54 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Destinos | TripWay</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-
-<body style="font-family: Arial">
+<body>
 
     <header>
-        <h1>TripWay</h1>
+        <nav>
+            <a class="logo" href="../index.html">TripWay</a>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="destinos.html" class="active">Destinos</a></li>
+                <li><a href="pacotes.html">Pacotes</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="destinos.html">Destinos</a></li>
-            <li><a href="pacotes.html">Pacotes</a></li>
-            <li><a href="contato.html">Contato</a></li>
-        </ul>
-    </nav>
-
     <main>
-        <h1>Destinos TripWay</h1>
 
-        <section>
-            <h2>Nossos Destinos</h2>
+        <section class="pagina-banner">
+            <h1>Nossos Destinos</h1>
             <p>Confira alguns dos melhores lugares para viajar com a TripWay.</p>
         </section>
 
-        <section>
-            <h3>Praia do Rosa - SC</h3>
-            <img src="../images/praia.jpg" alt="Praia do Rosa" width="300">
-            <p><strong>Descrição:</strong> Um destino perfeito para quem busca tranquilidade, com mar azul e natureza incrível.</p>
-            <p><strong>Tipo:</strong> Praia</p>
-        </section>
+        <div class="cards-container">
 
-        <section>
-            <h3>Serra da Mantiqueira - MG</h3>
-            <img src="../images/montanha.jpg" alt="Serra da Mantiqueira" width="300">
-            <p><strong>Descrição:</strong> Perfeito para quem gosta de natureza, trilhas e clima de montanha.</p>
-            <p><strong>Tipo:</strong> Montanha</p>
-        </section>
+            <div class="card">
+                <img src="../images/praia.jpg" alt="Praia do Rosa, Santa Catarina">
+                <div class="card-body">
+                    <span class="card-tag">Praia</span>
+                    <h3>Praia do Rosa — SC</h3>
+                    <p>Um destino perfeito para quem busca tranquilidade, com mar azul e natureza incrível.</p>
+                    <a href="pacotes.html" class="botao">Ver Pacotes</a>
+                </div>
+            </div>
 
-        <section>
-            <h3>Paris - França</h3>
-            <img src="../images/paris.jpg" alt="Torre Eiffel em Paris" width="300">
-            <p><strong>Descrição:</strong> Paris é um dos destinos mais famosos do mundo, conhecida por sua cultura, gastronomia e pontos turísticos como a Torre Eiffel.</p>
-            <p><strong>Tipo:</strong> Internacional</p>
-        </section>
+            <div class="card">
+                <img src="../images/montanha.jpg" alt="Serra da Mantiqueira, Minas Gerais">
+                <div class="card-body">
+                    <span class="card-tag">Montanha</span>
+                    <h3>Serra da Mantiqueira — MG</h3>
+                    <p>Perfeito para quem gosta de natureza, trilhas e clima de montanha.</p>
+                    <a href="pacotes.html" class="botao">Ver Pacotes</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../images/paris.jpg" alt="Torre Eiffel em Paris, França">
+                <div class="card-body">
+                    <span class="card-tag">Internacional</span>
+                    <h3>Paris — França</h3>
+                    <p>Um dos destinos mais famosos do mundo, conhecida por sua cultura, gastronomia e a Torre Eiffel.</p>
+                    <a href="pacotes.html" class="botao">Ver Pacotes</a>
+                </div>
+            </div>
+
+        </div>
+
     </main>
 
     <footer>

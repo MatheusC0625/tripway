@@ -4,59 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pacotes | TripWay</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
+<body>
 
-<body style="font-family: Arial">
+    <header>
+        <nav>
+            <a class="logo" href="../index.html">TripWay</a>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="pacotes.html" class="active">Pacotes</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<header>
-    <h1>TripWay</h1>
-</header>
+    <main>
 
-<nav> 
-    <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="destinos.html">Destinos</a></li>
-        <li><a href="pacotes.html">Pacotes</a></li>
-        <li><a href="contato.html">Contato</a></li>
-    </ul>
-</nav>
+        <section class="pagina-banner">
+            <h1>Pacotes de Viagem</h1>
+            <p>Escolha o pacote ideal para a sua próxima aventura.</p>
+        </section>
 
-<main>
-    <section>
-        <h2>Pacotes de viagem</h2>
+        <div class="cards-container">
 
-        <div>
-            <h3>Pacote Praia</h3>
-            <img src="https://images.pexels.com/photos/19160402/pexels-photo-19160402.jpeg" alt="Praia paradisíaca" width="300">
-            <p><strong>Descrição:</strong> Pacote ideal para quem quer relaxar em praias incríveis com hospedagem e passeios inclusos.</p>
-            <p><strong>Duração:</strong> 5 dias</p>
-            <p><strong>Preço:</strong> R$ 2.500</p>
-            <p><strong>Inclui:</strong> Hotel + Transporte + Passeios</p>
+            <div class="card">
+                <img src="https://images.pexels.com/photos/19160402/pexels-photo-19160402.jpeg" alt="Praia paradisíaca">
+                <div class="card-body">
+                    <span class="card-tag">5 dias</span>
+                    <h3>Pacote Praia</h3>
+                    <p>Ideal para quem quer relaxar em praias incríveis com hospedagem e passeios inclusos.</p>
+                    <ul class="card-info">
+                        <li><strong>Preço:</strong> R$ 2.500</li>
+                        <li><strong>Inclui:</strong> Hotel + Transporte + Passeios</li>
+                    </ul>
+                    <a href="contato.html" class="botao">Reservar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.pexels.com/photos/32278349/pexels-photo-32278349.jpeg" alt="Montanhas">
+                <div class="card-body">
+                    <span class="card-tag">4 dias</span>
+                    <h3>Pacote Montanha</h3>
+                    <p>Perfeito para quem gosta de trilhas, natureza e aventuras em montanhas.</p>
+                    <ul class="card-info">
+                        <li><strong>Preço:</strong> R$ 1.800</li>
+                        <li><strong>Inclui:</strong> Hospedagem + Trilhas guiadas</li>
+                    </ul>
+                    <a href="contato.html" class="botao">Reservar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../images/paris.jpg" alt="Paris, França">
+                <div class="card-body">
+                    <span class="card-tag">6 dias</span>
+                    <h3>Pacote Paris</h3>
+                    <p>Uma viagem inesquecível para Paris visitando pontos icônicos e vivendo a cultura francesa.</p>
+                    <ul class="card-info">
+                        <li><strong>Preço:</strong> R$ 4.500</li>
+                        <li><strong>Inclui:</strong> Hotel + Passagem aérea + Passeios</li>
+                    </ul>
+                    <a href="contato.html" class="botao">Reservar</a>
+                </div>
+            </div>
+
         </div>
 
-        <div>
-            <h3>Pacote Montanha</h3>
-            <img src="https://images.pexels.com/photos/32278349/pexels-photo-32278349.jpeg" alt="Montanhas famosas" width="300">
-            <p><strong>Descrição:</strong> Perfeito para quem gosta de trilhas, natureza e aventuras em montanhas.</p>
-            <p><strong>Duração:</strong> 4 dias</p>
-            <p><strong>Preço:</strong> R$ 1.800</p>
-            <p><strong>Inclui:</strong> Hospedagem + Trilhas guiadas</p>
-        </div>
+    </main>
 
-        <div>
-            <h3>Pacote Paris</h3>
-            <img src="../images/louvre.jpg" alt="Paris" width="300">
-            <p><strong>Descrição:</strong> Aproveite uma viagem inesquecível para Paris com todo o conforto, visitando pontos icônicos, experimentando a gastronomia local e vivendo a cultura francesa de perto.</p>
-            <p><strong>Duração:</strong> 6 dias</p>
-            <p><strong>Preço:</strong> R$ 4.500</p>
-            <p><strong>Inclui:</strong> Hotel + Passagem aérea + Passeios turísticos</p>
-        </div>
-    </section>
-</main>
-
-<footer>
-    <p>&copy; 2026 TripWay</p>
-</footer>
+    <footer>
+        <p>&copy; 2026 TripWay</p>
+    </footer>
 
 </body>
 </html>
