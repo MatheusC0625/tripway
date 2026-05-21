@@ -1,41 +1,48 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TripWay</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+<body>
 
-<body style="font-family: Arial;">
+    <header>
+        <nav>
+            <a class="logo" href="index.html">TripWay</a>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="pages/destinos.html">Destinos</a></li>
+                <li><a href="pages/pacotes.html">Pacotes</a></li>
+                <li><a href="pages/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<header>
-    <h1>TripWay</h1>  
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pages/destinos.html">Destinos</a></li>
-            <li><a href="pages/contato.html">Contato</a></li>
-            <li><a href="pages/pacotes.html">Pacotes</a></li> 
-        </ul>
-    </nav>
-</header>
+    <main>
 
-<main>
-    <section id="destinos">
-        <h2>Bem-vindo à TripWay</h2>
-        <p>Conheça destinos incríveis pelo mundo em nossos conteúdos exclusivos!</p>
-        <img src="https://images.pexels.com/photos/30615703/pexels-photo-30615703.jpeg" alt="Paris" width="300">
-    </section>
+        <section class="caixa-principal">
+            <div class="caixa-texto">
+                <h1>Bem-vindo à <span>TripWay</span></h1>
+                <p>Conheça destinos incríveis pelo mundo em nossos conteúdos exclusivos!</p>
+                <a href="pages/destinos.html" class="botao">Conhecer Destinos</a>
+            </div>
+            <div class="caixa-imagem">
+                <img src="images/paris.jpg" alt="Destino TripWay">
+            </div>
+        </section>
 
-    <section id="sobre">
-        <h2>Sobre a TripWay</h2>
-        <p>Oferecemos experiências incríveis através das nossas viagens. Somos o guia perfeito para qualquer tipo de aventura!</p>
-    </section>
-</main>
+        <section class="sobre">
+            <h2>Sobre a TripWay</h2>
+            <p>Oferecemos experiências incríveis através das nossas viagens. Somos o guia perfeito para qualquer tipo de aventura!</p>
+        </section>
 
-<footer>
-    <p>&copy; 2026 TripWay</p>
-</footer>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TripWay</p>
+    </footer>
 
 </body>
 </html>
